@@ -1,6 +1,7 @@
 package fuzz
 
 import "github.com/goinvest/iexcloud/v2"
+import "context"
 
 func mayhemit(bytes []byte) int {
     content := string(bytes)
