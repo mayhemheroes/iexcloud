@@ -4,7 +4,8 @@ import "github.com/goinvest/iexcloud/v2"
 
 func mayhemit(bytes []byte) int {
     content := string(bytes)
-    _ = iex.WithBaseURL(content)
+    ctx := context.Background()
+    _ = iex.GetBytes(ctx, content)
     return 0
 }
 
