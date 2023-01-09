@@ -1,4 +1,4 @@
-package fuzz
+package fuzzGetBytes
 
 import "github.com/goinvest/iexcloud/v2"
 import "context"
